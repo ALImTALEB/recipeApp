@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-    baseURL: "http://localhost:9000/api/", withCredentials: true
+    baseURL: "https://recipe-app-psi-one.vercel.app/api/", withCredentials: true
 })
 
 export default newRequest
