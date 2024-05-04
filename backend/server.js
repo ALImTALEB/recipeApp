@@ -20,7 +20,10 @@ process.on('uncaughtException', err => {
 
 const app = express();
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: 'https://recipe-app-us18.vercel.app',
+    credentials: true // If your requests include credentials (e.g., cookies)
+  }));
 app.use(cookieParser())
 
 dotenv.config();
