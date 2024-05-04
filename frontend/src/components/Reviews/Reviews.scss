@@ -1,0 +1,59 @@
+.reviewsss {
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+  .revieww {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 5px;
+    position:relative ;
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .pp {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+    }
+    .stars {
+      display: flex;
+      gap: 5px;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+      span {
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+        font-weight: 300;
+        align-self: last baseline;
+      }
+    }
+    .rev {
+      align-self: flex-start;
+    }
+    .delete{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 22px;
+        color: red;
+        cursor: pointer;
+    }
+    hr {
+        border: 1px solid black;
+        width: 80%;
+        background-color: black;
+    }
+
+  }
+}

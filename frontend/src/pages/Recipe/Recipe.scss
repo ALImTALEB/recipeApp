@@ -1,0 +1,117 @@
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  .cntr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    gap: 50px;
+    .left {
+      .slider {
+        width: 300px;
+        height: 300px;
+        img {
+          object-fit: contain;
+          max-height: 300px;
+          max-width: 300px;
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .recipeDetails {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(238, 238, 238);
+      border-radius: 10px;
+      width: 350px;
+      height: auto;
+      align-self: center;
+      gap: 10px;
+
+      h2 {
+        align-self: flex-start;
+        margin-left: 10px;
+      }
+
+      .details {
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        align-items: center;
+        align-self: flex-start;
+        .likes {
+          display: flex;
+          gap: 5px;
+          align-items: center;
+          span {
+            font-size: 16px;
+          }
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+        .userDetails {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          align-self: flex-start;
+          margin-left: 10px;
+
+          img {
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+          }
+          span {
+            font-size: 22px;
+          }
+        }
+      }
+
+      h3 {
+        align-self: flex-start;
+        margin-left: 10px;
+      }
+      .ingredients {
+        align-self: flex-start;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        span {
+          align-self: flex-start;
+        }
+      }
+      .cookingInstructions {
+        align-self: flex-start;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-bottom: 15px;
+        span {
+          align-self: flex-start;
+        }
+      }
+    }
+  }
+  p {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+}

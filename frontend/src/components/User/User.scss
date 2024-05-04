@@ -1,0 +1,39 @@
+.userDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .left{
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    .update{
+        display: flex;
+        gap: 20px;
+        .left{
+            position: relative;
+        }
+        .right{
+            position: relative;
+        }
+        button {
+            background-color: red;
+            border: none;
+            border-radius: 10px;
+            h5{
+                color: white;
+            }            
+        }
+    }
+}

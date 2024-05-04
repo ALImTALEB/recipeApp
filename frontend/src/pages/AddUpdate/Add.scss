@@ -1,0 +1,70 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 10px;
+    .images {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    input {
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        height: 20px;
+        padding: 10px;
+        width: auto;
+    }
+    .imgg{
+        width: 150px;
+    }
+    .jcpp{
+        display: flex;
+        padding: 10px;
+        gap: 5px;
+    }
+    .filee{
+        background-color: white;
+        border-radius: 8px;
+        width: 188px;
+    }
+    .file{
+        background-color: white;
+        border-radius: 8px;
+        width: auto;
+    }
+    button {
+        width: 100px;
+        height: 40px;
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        border: 1px solid green;
+
+        &:hover{
+            background-color: rgb(243, 225, 225);
+        }
+    }
+
+    .addedF{
+        display: flex;
+        gap: 20px;
+        button{
+            height: 30px;
+            color: red;
+            border: 1px solid red;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,185 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    transition: 0.5s all ease;
+    z-index: 999;
+
+    &.active {
+        background-color: transparent;
+        .logo{
+            img{
+                height: 60px;
+                width: 60px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .logo{
+        img{
+            height: 60px;
+            width: 60px;
+        }
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    
+        .share {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            img{
+                font-size: 18px;
+                height: 50px;
+                width: 50px;
+                cursor: pointer;
+            }
+            .menuuu{
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                justify-content: center;
+                right: 0px;
+                top: 60px;
+                gap: 10px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                padding: 5px;
+
+                li{
+                   list-style-type : none;
+                   display: flex;
+                   flex-direction: column;
+                   cursor: pointer;
+                   img{
+                    height: 40px;
+                   }
+                   .fb{
+                    height: 30px;
+                    width: 30px;
+                   }
+                }
+            }
+        }
+
+        .userImg{
+            position: relative;
+            cursor: pointer;
+            .img{
+                width: 60px;
+                height: 60px;
+                border-radius: 50px;
+            }
+            .menuu{
+                position: absolute;
+                background-color: white;
+                top: 60px;
+                right: 0px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid gray;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    list-style-type : none;
+                    padding: 10px;
+
+                    cursor: pointer;
+                    span{
+                        font-size: 18px;
+                    }
+
+                    .link{
+                        color: black;
+                        text-decoration: none;
+                        text-transform: none;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                    
+                    img{
+                        height: 40px;
+                        width: 30px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .options{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            justify-content: center;
+            
+            img{
+                height: 50px;
+                width: 50px;
+                cursor: pointer;
+            }
+
+            .menu{
+                position: absolute;
+                background-color: white;
+                top: 60px;
+                right: 0px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid gray;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    list-style-type : none;
+                    padding: 10px;
+
+                    cursor: pointer;
+                    span{
+                        font-size: 18px;
+                    }
+
+                    .link{
+                        color: black;
+                        text-decoration: none;
+                        text-transform: none;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                    
+                    img{
+                        height: 40px;
+                        width: 30px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

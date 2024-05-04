@@ -1,0 +1,46 @@
+
+
+.container {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    .left{
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 70px;
+        p{
+            font-size: 18px;
+        }
+        .search{
+            display: flex;
+            gap: 20px;
+            .mag {
+                height: 40px ;
+                width: 40px ;
+                cursor: pointer;
+            }
+            input{
+               outline : none;
+               border: 1px solid transparent;
+               border-radius: 10px;
+               width: 250px;
+            }
+            button{
+                border: none;
+            }
+        }
+    }
+    .right{
+        padding: 20px;
+        img {
+            width: 500px;
+            height: 500px;
+            border-radius: 40px;
+        }
+    }
+}
