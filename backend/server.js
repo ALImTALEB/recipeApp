@@ -21,7 +21,7 @@ process.on('uncaughtException', err => {
 const app = express();
 app.use(express.json())
 app.use(cors({
-    origin: 'https://recipe-app-us18.vercel.app',
+    origin: 'http://localhost:5173',
     credentials: true // If your requests include credentials (e.g., cookies)
   }));
 app.use(cookieParser())
